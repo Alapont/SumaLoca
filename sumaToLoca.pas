@@ -5,6 +5,49 @@ const
 var 
 	resultados
 
+procedure Borrar (var F : Fichero);
+var
+	E : Estudiante;
+	N : Cadena40;
+	I : Integer;
+begin
+	reset(F);
+	repeat
+		ClrScr;
+		GotoXY (25,2);
+		Writeln ('Esta Vd. en opcion de bajas');
+		Reset (F);
+		GotoXY (25,4);
+		Writeln('introduzca nombre del estudiante a borrar');
+		ReadLn (N);
+			I:=Posicion (N,F);
+			if I = -i then
+				begin
+					GotoXY (20,11);
+					WriteLn ('No existe el nombre buscado')
+				end
+			else
+				begin
+					Seek (F, I);
+					Read (F, E);
+					if E.Sw then
+						begin
+							Visualizar (E);
+							E.Sw :=false;
+							I := FilePos (F) - 1;
+						Seek (F,I);
+						Write (F,E)
+					end;
+				GotoXY(20,11);
+				Writeln('El registro fue dado de baha')
+			end;
+		PulsarUnaTecla;
+		GotoXY(20,11);
+		Writeln('Pulse - n - para salir de opcion bajas')
+	until UpCase (Readkey) = 'N';
+	close (F)
+end; {borrar}
+
 
 procedure sucesor(i integer)
 {
