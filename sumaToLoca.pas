@@ -2,6 +2,8 @@ program SumaLoca;
 label 1;
 const
 	Gilipollas = true;
+var 
+	resultados
 
 
 procedure sucesor(i integer)
@@ -34,7 +36,7 @@ begin
 		begin
 			while(2*i<(I+i+1)do
 				begin
-					i:=2*i-I+1;
+					i:=2*i+2-I;
 				end
 		end;
 		sucesor:=i;
