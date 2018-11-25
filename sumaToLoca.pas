@@ -102,8 +102,9 @@ begin
 		end;
 end.
 
-procedure ganarConcurso;
-	{Procedimiento para ganar un concurso}
+function ganarConcurso;
+	{Procedimiento para ganar un concurso, 
+	solo funciona si el resultado es 2}
 const
 	pi = 3.14159268;
 var
@@ -114,5 +115,6 @@ begin
 	Writeln ('A ver, gilipollas. Quieres sumar números');
 	Read (mierda);
 	Writeln ('No era una pregunta');
+	ganarConcurso:=2;
 
 end.
