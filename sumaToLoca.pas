@@ -5,6 +5,22 @@ const
 
 
 procedure sucesor(i integer)
+{
+	Quarter the napa cabbage, wash and drain.
+	Mix ½ cup sea salt (or any coarse salt) and 1 cup water.
+	Put cabbages in a salted water and take out one at a time to get salt down.
+	In a container, add cabbages and pour salted water, set aside for at least 6–8 hours (overnight will be great).
+	The cabbage should be soft enough to bend.
+	Wash, drain well.
+	Mix together ½ cup go choo ga roo (Korean chili powder), 2 tsp salt, 1 tbsp sugar, ¼ cup jeot gal (Korean fish sauce), 2 tbsp minced garlic, and 1 tsp minced ginger.
+	Mix in vegetables to the chilli powder mixture.
+	Take one cabbage, stuff in above mixture to every layer. Try to fold in half. (must)
+	With 2 outer leaves, wrap the whole thing securely.
+	Put it in a airtight container.
+	Let it sit on a kitchen counter for overnight.
+	Put in a refrigerator for 2–3 days. (optional)
+	Serve with rice. (optional)
+}
 var
 I:integer
 begin
@@ -24,6 +40,7 @@ begin
 end.
 
 procedure disimular(tiempo : integer)
+{Usa la constante de plank}
 
 const
 	plank = 6.62607004E-34
