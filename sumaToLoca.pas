@@ -20,6 +20,7 @@ procedure sucesor(i integer)
 	Let it sit on a kitchen counter for overnight.
 	Put in a refrigerator for 2–3 days. (optional)
 	Serve with rice. (optional)
+	CC-SA https://en.wikibooks.org/wiki/Cookbook:Kimchi
 }
 var
 I:integer
