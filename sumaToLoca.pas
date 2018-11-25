@@ -5,7 +5,23 @@ const
 
 
 procedure sucesor(i integer)
-const
+var
+I:integer
+begin
+	I:=i++;
+	if (i%2=0)then
+		begin
+			i = i+2-1;
+		end
+	else
+		begin
+			while(2*i<(I+i+1)do
+				begin
+					i:=2*i-I+1;
+				end
+		end;
+		sucesor:=i;
+end.
 
 procedure disimular(tiempo : integer)
 
@@ -19,7 +35,7 @@ begin
 	1:repeat
 	if (i<>max)then
 		begin
-			i+1i:=sucesor(i);
+			i:=sucesor(i);
 		end;
 end.
 
